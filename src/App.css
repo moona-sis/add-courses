@@ -1,0 +1,30 @@
+:root {
+  --primary: #3edcad;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Screens Container*/
+.screens-container {
+  position: relative;
+  top: 9vh;
+  left: 22%;
+  width: 78%;
+  min-height: 91vh;
+  height: fit-content;
+}
+
+.tab-container {
+  width: 90%;
+  justify-self: center;
+  background-color: red;
+}
+
+.students-search-container {
+  width: 50%;
+  margin-bottom: 30px;
+}
